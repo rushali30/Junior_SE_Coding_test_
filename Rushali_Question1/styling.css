@@ -1,0 +1,21 @@
+th, td {
+  padding:5px;
+  padding-right:15px;
+  padding-left: 15px;
+  font-family: "serif";
+  border:2px solid black;
+}
+
+#first, #second {
+text-align: center;
+background: black;
+color: #fff
+}
+
+tr:nth-child(even){
+  background-color: #0A0;
+}
+
+tr:nth-child(odd){
+  background-color: #0F0 ;
+}
